@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92.5vh;
+}
+
+.signup-box{
+    display: flex;
+    height: 70%;
+    width: 40%;
+    background-color: yellow;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.signup-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

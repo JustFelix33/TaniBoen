@@ -1,0 +1,38 @@
+.navbar{
+    background-color: green;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
+
+.navbar .left-section{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar .left-section img{
+    height: 50px;
+}
+
+.navbar .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.navbar .right-section a{
+    color: white;
+    text-decoration: none;
+}
