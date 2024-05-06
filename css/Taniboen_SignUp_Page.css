@@ -26,3 +26,16 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+
+.signup-content .name{
+    display: flex;
+    gap: 25%;  
+}
+
+.first-name input{
+    background: none;
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px;
+}

@@ -1,8 +1,12 @@
 body{
     margin: 0%;
     padding: 0%;
+    /* background-image: url("/assets/Taniboen\ Background.png");
+    background-size: cover;
+    background-position: center; */
 }
 
 .main{
     font-size: 100px;
+    /* color: white; */
 }
