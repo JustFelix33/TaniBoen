@@ -2,7 +2,7 @@ body{
     margin: 0%; 
     padding: 0%; 
     background: url("/assets/signup-background.jpg");
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -143,6 +143,12 @@ body img{
     height: 45px;
     cursor: pointer;    
     outline: 0;
+    padding: 0.5em 1em;
+    transition: transform 0.3s ease 0s;
+}
+
+.register button:hover{
+    transform: translateY(-3px);
 }
 
 .register{

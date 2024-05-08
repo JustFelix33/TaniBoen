@@ -82,6 +82,11 @@ body{
     border: 2px solid #518300;
     background-color: #518300;
     cursor: pointer;
+    transition: transform 0.3s ease 0s;
+}
+
+.login:hover{
+    transform: translateY(-3px);  
 }
 
 .other-option{
@@ -92,10 +97,13 @@ body{
 }
 
 .sign-up a{
-    text-decoration: underline;
+    text-decoration: none;
     color: lightgreen;
 }
 
+.sign-up:hover{
+    font-weight: bold;
+}
 
 
 
