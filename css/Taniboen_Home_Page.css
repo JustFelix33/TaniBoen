@@ -10,3 +10,77 @@ body{
     font-size: 100px;
     /* color: white; */
 }
+
+.information-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1482px;
+    height: 430px;
+    background-color: red;
+    /* position: relative; */
+}
+
+.information-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgreen;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.information-vege{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 80%;
+    
+}
+
+.vege-img{
+    height: 259px;
+    width: 288px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.information-row1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    margin: 100px;
+}
+
+.information-row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    /* margin: 100px; */
+}
+
+.obj{
+    border: 2px solid black;
+    padding: 5px;
+    /* background-color: red; */
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px black;
+    /* gap: 0; */
+}
+
+.obj h5{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-size: 18px ;
+}
+
+.view-more button{
+    
+}
