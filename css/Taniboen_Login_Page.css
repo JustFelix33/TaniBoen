@@ -26,10 +26,21 @@ section{
     justify-content: center;
     align-items: center;
 }
+.login-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 55px;
+    align-items: center;
+    gap: 20px;
+}
 h2{
     font-size: 2em;
     color: #fff;
     text-align: center;
+}
+.login-title img{
+    height: 60px;
 }
 .inputbox{
     position: relative;
