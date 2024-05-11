@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/logo taniboen remove bg2.png">
+    <link rel="stylesheet" href="/css/Taniboen_Navbar.css">
+    <link rel="stylesheet" href="/css/Taniboen_Login_Page.css">
+    <title>Taniboen</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="left-section">
+            <img src="/assets/logo taniboen remove bg2.png" alt="logo taniboen">
+            Taniboen
+        </div>
+        <div class="right-section">
+            <div id="home">
+                <a href="Taniboen_Home_Page.html">Home</a>
+            </div>
+            <div id="login">
+                <a href="Taniboen_Login_Page.html">Login</a>
+            </div>
+            <div id="sign-up">
+                <a href="Taniboen_SignUp_Page.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="login-box">
+            <div class="login-title">
+                LOGIN
+                <img src="/assets/logo taniboen remove bg2.png">
+            </div>
+            <div class="login-content">
+                <div id="email">
+                    <div class="email-content">
+                        Email
+                        <input type="text" name="" id="" placeholder="tes@gmail.com">
+                    </div>
+                </div>
+                <div id="password">
+                    Password
+                    <input type="password" name="" id="" placeholder="12345678">
+                </div>
+
+                <div class="login">
+                    LOGIN
+                </div>
+
+                <div class="other-option">
+                    Don't have an account?
+                    <div class="sign-up">
+                        <a href="Taniboen_SignUp_Page.html">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
