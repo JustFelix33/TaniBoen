@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Taniboen_Navbar.css">
+    <link rel="stylesheet" href="/css/TaniBoen_Products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/js/TaniBoen_Product.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="left-section">
+            <img src="/assets/logo taniboen remove bg2.png" alt="logo taniboen">
+            Taniboen
+        </div>
+        <div class="right-section">
+            <div id="home">
+                <a href="Taniboen_Home_Page.html">Home</a>
+            </div>
+            <div id="login">
+                <a href="Taniboen_Login_Page.html">Login</a>
+            </div>
+            <div id="sign-up">
+                <a href="Taniboen_SignUp_Page.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="product">
+            <div class="product-img">
+                    <img src="/assets/brocoli.jpg" class="vege-img">
+            </div>
+                
+            <div class="product-information">
+                <div class="product-title">
+                        Sayur Brocoli Segar
+                </div>
+
+                <div class="product-selling">
+                    <div class="product-rating">
+                        <span class="fa fa-star fa-3x checked"></span>
+                        <span class="fa fa-star fa-3x checked"></span>
+                        <span class="fa fa-star fa-3x checked"></span>
+                        <span class="fa fa-star fa-3x checked"></span>
+                        <span class="fa fa-star fa-3x"></span>
+                    </div>
+
+                    <div class="product-total-review">
+                        100 Penilaian
+                    </div>
+
+                    <div class="product-sold">
+                        500 Terjual
+                    </div>
+                </div>
+
+                <div class="product-price">
+                        Rp 7.000
+                </div>
+                <div class="product-shipping">
+                    Pengiriman 
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+
+                <div class="product-destination">
+                    Dikirim ke : <span class="destination-delivery">Kota Jakarta Barat</span>
+                </div>
+
+                <div class="deliverycost">
+                    Ongkos kirim :
+                    <div class="dropdown">
+                        <button id="selectedDelivery">Choose</button>
+                        <div class="deliverytype">
+                            <button onclick="showText(this)" class="reguler">Reguler <span class="deliveryprice">| Rp5.000</span></button>
+                            <button onclick="showText(this)" class="today">Today <span class="deliveryprice">| Rp10.000</span></button>
+                            <button onclick="showText(this)" class="instant">Instant <span class="deliveryprice">| Rp20.000</span></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result" id="result"></div>
+
+                <div class="product-confirmation">
+                    <button>Masukkan Keranjang</button>
+                    <button>Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showText(button) {
+            var text = button.textContent;
+            document.getElementById('selectedDelivery').textContent = text.split('|')[0].trim();
+            document.getElementById('result').textContent = 'Ongkos kirim: ' + text;
+        }
+    </script>
+
+
+</body>
+</html>
