@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url('/assets/farming-background.jpg')no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    min-height: 92.6vh;
+    flex-direction: column;
+    gap: 20px;
+}
+.shopping-cart-content{
+    background-color: white;
+    padding: 20px;
+}
+.shopping-cart-content td{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.shopping-cart-content th{
+    text-align: center;
+}
+.shopping-cart-content img{
+    max-height: 80px;
+}
+.main button{
+    background: transparent;
+    border: none;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+.main button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.main button:active{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.shopping-cart-content .quantity-counter{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.shopping-cart-content .quantity-counter input{
+    display: flex;
+    text-align: center;
+    width: 25px;
+    background: transparent;
+    border: none;
+}
+.shopping-cart-content .quantity-counter button{
+    width: 20px;
+    border: none;
+    background: transparent;
+}
+.shopping-cart-content .quantity-counter .plusminus{
+    background-color: red;
+}
+.shopping-cart-content .quantity-counter .plusminus:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.shopping-cart-content .quantity-counter .plusminus:active{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.shopping-cart-content .action-button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
