@@ -84,7 +84,7 @@ input:valid ~ label{
     font-size: .9em;
     color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around
 }
 .forget label{
     display: flex;
@@ -92,6 +92,9 @@ input:valid ~ label{
 }
 .forget label input{
     margin-right: 3px;
+}
+.forget label input:hover{
+    cursor: pointer;
 }
 .forget a{
     color: #fff; 
@@ -106,7 +109,7 @@ button{
     height: 40px;
     border-radius: 40px;
     background: #fff;
-    border: none;
+    border: 1.5px solid blue;
     outline: none;
     cursor: pointer;
     font-size: 1em;
@@ -115,6 +118,7 @@ button{
 button:hover{
     opacity: 0.8;
     transition: .2s;
+    box-shadow: 3px 4px black;
 }
 .register{
     font-size: .9em;

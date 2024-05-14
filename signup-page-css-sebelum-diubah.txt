@@ -1,0 +1,156 @@
+body{
+    margin: 0%; 
+    padding: 0%; 
+    background: url("/assets/signup-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body img{
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92.5vh;
+}
+
+.main img{
+    width: 100%;
+    height: auto;    
+}
+
+.signup-box{
+    display: flex;
+    height: 70%;
+    width: 40%;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, .9);
+    border-radius: 20px;   
+    background: transparent;
+    backdrop-filter: blur(2px);
+}
+
+.signup-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.signup-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'katibeh', sans-serif;
+    font-size: 30px;
+}
+
+.signup-title img{
+    height: 50px;
+    width: 50px;
+}
+
+.signup-content .name{
+    display: flex;
+    gap: 25%;  
+}
+
+.first-name{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name input{
+    background: none;
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.last-name{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.last-name input{
+    background: none;
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.email{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-input input{
+    background: none;
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.password{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-input input{
+    background: none;
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.confirm-password{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-password input{
+    background: none;
+    border: 2px green solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.register button{ 
+    background-color: #76BD5E;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 40px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer;    
+    outline: 0;
+    padding: 0.5em 1em;
+    transition: transform 0.3s ease 0s;
+}
+
+.register button:hover{
+    transform: translateY(-3px);
+}
+
+.register{
+    /* font-size: 100px; */
+}

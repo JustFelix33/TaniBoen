@@ -1,32 +1,26 @@
-body{
+*{
     margin: 0%; 
     padding: 0%; 
-    background: url("/assets/signup-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-body img{
-
 }
 
 .main{
+    background: url("/assets/signup-background.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 92.5vh;
-}
-
-.main img{
-    width: 100%;
-    height: auto;    
+    min-height: 92.6vh;
+    width: 100%; 
 }
 
 .signup-box{
     display: flex;
-    height: 70%;
-    width: 40%;
+    height: 600px;
+    width: 700px;
     flex-direction: column;
     gap: 30px;
     padding: 20px;
@@ -34,6 +28,7 @@ body img{
     border-radius: 20px;   
     background: transparent;
     backdrop-filter: blur(2px);
+    position: relative;
 }
 
 .signup-content{
@@ -41,6 +36,8 @@ body img{
     flex-direction: column;
     gap: 20px;
     /* background-color: red; */
+    height: 100%;
+    width: 100%;
 }
 
 .signup-title{
@@ -48,8 +45,9 @@ body img{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-family: 'katibeh', sans-serif;
-    font-size: 30px;
+    /* font-family: 'katibeh', sans-serif; */
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .signup-title img{
@@ -62,74 +60,19 @@ body img{
     gap: 25%;  
 }
 
-.first-name{
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.first-name input{
-    background: none;
-    border: 2px green solid;
-    border-radius: 20px;
+.signup-content input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px green solid;
     padding: 5px;
     box-shadow: 2px 2px 8px;
 }
 
-.last-name{
+.inputbox{
     gap: 5px;
     display: flex;
     flex-direction: column;
-}
-
-.last-name input{
-    background: none;
-    border: 2px green solid;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 2px 2px 8px;
-}
-
-.email{
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.email-input input{
-    background: none;
-    border: 2px green solid;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 2px 2px 8px;
-}
-
-.password{
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.password-input input{
-    background: none;
-    border: 2px green solid;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 2px 2px 8px;
-}
-
-.confirm-password{
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.confirm-password input{
-    background: none;
-    border: 2px green solid;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 2px 2px 8px;
 }
 
 .register button{ 
