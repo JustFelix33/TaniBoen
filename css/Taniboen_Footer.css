@@ -1,4 +1,38 @@
-.footer{
+.footer{ 
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-upper{
+    display: flex;
     background-color: green;
-    width: 100%;
+    padding: 20px;
+}
+
+.footer-upper-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: center;
+}
+
+.footer-upper-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: center;
+}
+
+.footer-lower{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
