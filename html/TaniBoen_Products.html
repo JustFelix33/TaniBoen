@@ -70,10 +70,10 @@
                     Dikirim ke : <span class="destination-delivery">Kota Jakarta Barat</span>
                 </div>
 
-                <div class="deliverycost">
+                <div class="product-deliverycost">
                     Ongkos kirim :
                     <div class="dropdown">
-                        <button id="selectedDelivery">Choose</button>
+                        <button id="selectedDelivery">Choose Shipment</button>
                         <div class="deliverytype">
                             <button onclick="showText(this)" class="reguler">Reguler <span class="deliveryprice">| Rp5.000</span></button>
                             <button onclick="showText(this)" class="today">Today <span class="deliveryprice">| Rp10.000</span></button>
@@ -84,21 +84,134 @@
 
                 <div class="result" id="result"></div>
 
+                <div class="product-quantity">
+                    Kuantitas :
+                    <button id="decreaseButton">
+                        <i class="fa-solid fa-minus"></i>
+                    </button>
+
+                    <label id="countLabel">0</label>
+
+                    <button id="increaseButton">
+                        <i class="fa-solid fa-plus" ></i>
+                    </button>
+
+                    <label class="product-avail">
+                        50 tersisa
+                    </label>
+                </div>
+
                 <div class="product-confirmation">
-                    <button>Masukkan Keranjang</button>
-                    <button>Beli Sekarang</button>
+                    <div class="cart">
+                        <button>
+                            <img src="/assets/shopping-cart-removebg-preview.png" alt="shopping-cart">
+                            Masukkan Keranjang
+                        </button>
+                    </div>
+                    <div class="buy">
+                        <button>Beli Sekarang</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script>
-        function showText(button) {
-            var text = button.textContent;
-            document.getElementById('selectedDelivery').textContent = text.split('|')[0].trim();
-            document.getElementById('result').textContent = 'Ongkos kirim: ' + text;
-        }
-    </script>
+        <div class="product-seller-information">
+            <div class="left-seller-container">
+                <div class="seller">
+                    <img src="/assets/seller-logo.png" alt="seller-logo">
+                </div>
+
+                <div class="seller-bio-container">
+                    <div class="seller-title">
+                        Mun&Co
+                    </div>
+
+                    <div class="seller-online">
+                        Aktif 1 jam lalu
+                    </div>
+
+                    <div class="seller-chat">
+                        <button>Chat</button>
+                    </div>
+                </div>
+            <div class="line"></div>
+            </div>
+           
+
+            <div class="seller-availability">
+                    <div class="follower-rating-reply-percentage-product-join-container">
+                        <div class="seller-follower">
+                            Pengikut <span class="seller-text">2,2RB</span>
+                        </div>
+
+                        <div class="seller-rating">
+                            Penilaian <span class="seller-text">3RB</span>
+                        </div>
+                    </div>
+
+                    <div class="follower-rating-reply-percentage-product-join-container">
+                        <div class="seller-chat-reply">
+                            Waktu Chat <span class="seller-text">Dibalas estimasi dalam menit</span>
+                        </div>
+
+                        <div class="seller-percentage-reply">
+                            Persentase Chat Dibalas  <span class="seller-text">90%</span>
+                        </div>
+                    </div>
+
+                    <div class="follower-rating-reply-percentage-product-join-container">
+                        <div class="seller-product">
+                            Produk  <span class="seller-text">57</span>
+                        </div>
+
+                        <div class="seller-join">
+                            Bergabung Sejak <span class="seller-text">1 tahun yang lalu</span>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+
+        <div class="product-spec">
+            <div class="product-spec-title">
+                Spesifikasi Produk
+            </div>
+
+            <div class="product-spec-inner">
+                <div class="product-stock">
+                    Stock <span class="seller-text">50</span>
+                </div>
+
+                <div class="product-from">
+                    Dikirim dari <span class="seller-text">Kota Bogor</span>
+                </div>
+
+                <div class="product-category">
+                    Kategori <span class="seller-text">Sayuran Segar</span>
+                </div>
+            </div>
+
+            <div class="product-desc-title">
+                Deskripsi Produk
+            </div>
+
+            <div class="start-desc">
+                Kami menyediakan berbagai macam sayur segar
+            </div>
+
+            <div class="main-desc">
+                *Pemesanan mulai jam 6 pagi sampai jam   3 sore akan dikirim dihari yg sama<br>
+                *Pemesanan di atas jam 3 sore akan dikirim besok<br>
+                *Toko buka setiap hari Senin - Minggu<br>
+                *Jika ada komplain atau kekurangan silahkan menghubungi kami dengan menyertakan bukti foto atau video saat melakukan unboxing<br>
+                *Pengiriman instan same day akan dikirim menggunakan pengiriman kurir instan,pengiriman akan di mulai jam 8 pagi sesuai antrian orderan yg masuk sejak kemarin<br>
+            </div>
+
+            <div class="closing-desc">
+                Jika ada pertanyaan silahkan menghubungi kami terimakasih 🙏 tidak perlu kepasar lagi biar kami yang belanjakan dipasar
+            </div>
+        </div>
+
+    </div>
 
 
 </body>
