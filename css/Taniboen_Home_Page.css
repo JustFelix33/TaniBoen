@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0%;
     padding: 0%;
     /* background-image: url("/assets/Taniboen\ Background.png");
@@ -6,6 +6,10 @@ body{
     background-position: center; */
 }
 
+.main{
+    min-height: 92.6vh;
+    width: 100%; 
+}
 
 .introduction-container{
     background: url('/assets/background-introduction.jpg')no-repeat;
@@ -92,10 +96,6 @@ body{
     width: 288px;
     border-radius: 10px;
     border: 2px solid black;
-}
-
-.view-more button{
-    
 }
 
 /* @media only screen and (max-width: 1500px) {
