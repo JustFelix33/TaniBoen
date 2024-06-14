@@ -6,11 +6,6 @@
     background-position: center; */
 }
 
-.main{
-    min-height: 92.6vh;
-    width: 100%; 
-}
-
 .introduction-container{
     background: url('/assets/background-introduction.jpg')no-repeat;
     background-size: cover;
