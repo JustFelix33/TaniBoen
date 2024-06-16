@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/TaniBoen/assets/logo taniboen remove bg2.png">
-    <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Navbar.css">
-    <link rel="stylesheet" href="/TaniBoen/css/Taniboen_SignUp_Page.css">
+    <link rel="icon" type="image/png" href="/assets/logo taniboen remove bg2.png">
+    <link rel="stylesheet" href="/css/Taniboen_Navbar.css">
+    <link rel="stylesheet" href="/css/Taniboen_SignUp_Page.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Katibeh&family=Libre+Franklin:wght@700&family=Nanum+Myeongjo&family=Oswald:wght@300&family=Poppins:wght@100&family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -49,65 +50,70 @@
     <div class="main">
         <section>
             <div class="signup-box">
-                <div class="signup-content">
-                    <div class="signup-title">
-                        <img src="/TaniBoen/assets/logo taniboen remove bg2.png">
-                        Create Account
-                    </div>
-                    <div class="name">
-                        <div class="inputbox" id="first-name">
-                            <div class="first-name-label">
-                                First Name
-                            </div>
-                            <div class="first-name-input">
-                                <input type="text" placeholder="First Name">
-                            </div>
-                        </div>
-                        <div class="inputbox" id="last-name">
-                            <div class="last-name-label">
-                                Last Name
-                            </div>
-                            <div class="last-name-input">
-                                <input type="text" placeholder="Last Name">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="inputbox" id="email">
-                        <div class="email-label">
-                            Email Address 
-                        </div>
-                        <div class="email-input">
-                            <input type="text" name="" id="" placeholder="tes@gmail.com">
-                        </div>
-                    </div>
-                    <div class="inputbox" id="password">
-                        <div class="password-label">
-                            Password 
-                        </div>
-                        <div class="password-input">
-                            <input type="password" name="" id="" placeholder="12345678@abc">
-                        </div>
-                    </div>
-                    <div class="inputbox" id="confirm-password">
-                        <div class="confirm-password-label">
-                            Confirm Password
-                        </div>
-                        <div class="confirm-password-input">
-                            <input type="password" name="" id="" placeholder="12345678@abc">
-                        </div>   
-                    </div>
-                    <div class="inputbox" id="phone-number">
-                        <div class="confirm-password-label">
-                            Phone Number
-                        </div>
-                        <div class="confirm-password-input">
-                            <input type="text" name="" id="" placeholder="081234567890">
-                        </div>   
-                    </div>
+                <div class="signup-title">
+                    <img src="/assets/logo taniboen remove bg2.png">
+                    Create Account
                 </div>
-                <div class="register">
-                    <button>Register</button>
-                </div>
+                <table>
+                    <form action="Register" method="post" id="regis-form" autocomplete="off">
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td>
+                            <div class="input-account" id="input-name">
+                                <input id="name-input" type="text" required placeholder="Input Your Name Here">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone-number">Phone Number</label></td>
+                        <td>
+                            <div class="input-account" id="input-phone-number">
+                                <input id="phone-number-input" type="text" required placeholder="0865 2234 7840">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address</label></td>
+                        <td>
+                            <div class="input-account" id="input-email">
+                                <input id="email-input" type="text" required placeholder="asd@asd.com">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password" id="input-password">Password</label></td>
+                        <td>
+                            <div class="input-account">
+                                <input id="password-input" type="password" required placeholder="Input Your Password">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm-password" id="input-confirm-password">Confirm Password</label></td>
+                        <td>
+                            <div class="input-account">
+                                <input id="confirm-input" type="password" required placeholder="Confirm Your Password">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div id="input-checkbox"><input type="checkbox" id="checkbox-input"> <label for="remember">By clicking register, I agree to the terms and conditions</label></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="register">
+                                <a href="Taniboen_Login_Page.html">
+                                    <input type="submit" value="Register">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    </form>
+                </table>
             </div>
         </section>
     </div>

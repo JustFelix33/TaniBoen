@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/assets/logo taniboen remove bg2.png">
+    <link rel="stylesheet" href="/css/Taniboen_Navbar.css">
+    <link rel="stylesheet" href="/css/Taniboen_Home_Page.css">
+    <link rel="stylesheet" href="/css/Taniboen_Footer.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Navbar.css">
     <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Home_Page.css">
     <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Footer.css">
@@ -16,7 +20,7 @@
             <a href="Taniboen_Home_Page.html">
                 <img src="/TaniBoen/assets/logo taniboen remove bg2.png" alt="logo taniboen">        
             </a>
-            Taniboen
+            TaniBoen
         </div>
         <div class="right-section">
             <ul class="menu">
@@ -39,6 +43,11 @@
                         <img src="/TaniBoen/assets/profile.png" alt="profile">
                     </a>
                 </li>
+                <li class="menu-choice">
+                    <a href="Taniboen_Chat_Page.html" class="menu-link">
+                        <img src="/assets/chat-page.png" alt="chat">
+                    </a>
+                </li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
@@ -52,22 +61,68 @@
         <div class="introduction-container">
             <div class="introduction">
                 <div class="intro-title">
-                    Your market place for fresh farm products
+                    Mari Berbelanja di TaniBoen!
                 </div> 
 
                 <div class="intro-greet">
-                    Welcome to TaniBoen 
-                    where you can purchase products from fresh farms all over Indonesia
+                    Segarkan Hidup Anda dengan Produk Pertanian Terbaik dari TaniBoen!
                 </div>
             </div>
                 
         </div>
         <div class="information-title">
-            Fresh Produce
+            Ingin Beli Apa Hari Ini?
         </div>
+
+        <section class="carouselcontainer">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <input type="radio" name="slide" id="img1" checked>
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <input type="radio" name="slide" id="img4">
+
+                    <img class="m1" src="/assets/slider1.jpg" alt="slider1">
+                    <img class="m2" src="/assets/slider2.jpg" alt="slider2">
+                    <img class="m3" src="/assets/slider3.png" alt="slider3">
+                    <img class="m4" src="/assets/slider4.png" alt="slider4">
+                </div>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                    <label for="img4"></label>
+                </div>
+            </div>
+        </section>
+
+        <a href="" class="searchcontainer">
+            <div class="searchicon"><img src="/assets/searchicon.png" alt=""></div>
+            <div class="searchtext">Search</div>
+        </a>
+
+        
+
         <div class="information-vege">
+            <div class="headline1">Produk Terlaris</div>
             <div class="information-row">
+                <a href="/html/TaniBoen_Products.html">
                 <div class="obj">
+                    <img src="/assets/kangkung.jpg" class="vege-img">
+                    <section class="topobj">
+                        <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                        <label for="product-price" id="product-price">Rp12.000</label>
+                        <label for="product-location" id="product-location">Kota Bogor</label>
+                    </section>
+                    <div class="bottomobj">
+                        <div class="leftbottom">
+                            <img src="/assets/ratingicon.png" alt="ratingicon">
+                            <label for="product-rating" id="product-rating">4.0</label>
+                        </div>
+                        <div class="rightbottom">
+                            <label for="product-sold" id="product-sold">500 terjual</label>
+                        </div>
+                    </div>
                     <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen/assets/cabbage.jpg" class="vege-img"></a>
                     <label for="product-name">Cabbage</label>
                     <label for="product-price">$22</label>
@@ -78,6 +133,143 @@
                     <label for="product-name">Carrot</label>
                     <label for="product-price">$22</label>
                 </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
                 <div class="obj">
                     <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen/assets/brocoli.jpg" class="vege-img"></a>
                     <label for="product-name">Broccoli</label>
@@ -94,11 +286,165 @@
                     <label for="product-price">$22</label>
                 </div>
 
+        <div class="information-vege">
+            <div class="headline1">Jasa Terpopuler Saat Ini</div>
+            <div class="information-row">
+                <a href="/html/TaniBoen_Products.html">
                 <div class="obj">
+                    <img src="/assets/kangkung.jpg" class="vege-img">
+                    <section class="topobj">
+                        <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                        <label for="product-price" id="product-price">Rp12.000</label>
+                        <label for="product-location" id="product-location">Kota Bogor</label>
+                    </section>
+                    <div class="bottomobj">
+                        <div class="leftbottom">
+                            <img src="/assets/ratingicon.png" alt="ratingicon">
+                            <label for="product-rating" id="product-rating">4.0</label>
+                        </div>
+                        <div class="rightbottom">
+                            <label for="product-sold" id="product-sold">500 terjual</label>
+                        </div>
+                    </div>
                     <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/coffeeseed.jpg" class="vege-img"></a>
                     <label for="product-name">Cauliflower</label>
                     <label for="product-price">$22</label>
                 </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/html/TaniBoen_Products.html">
+                    <div class="obj">
+                        <img src="/assets/kangkung.jpg" class="vege-img">
+                        <section class="topobj">
+                            <label for="product-name" id="product-name">Sayur Kankung Segar...</label>
+                            <label for="product-price" id="product-price">Rp12.000</label>
+                            <label for="product-location" id="product-location">Kota Bogor</label>
+                        </section>
+                        <div class="bottomobj">
+                            <div class="leftbottom">
+                                <img src="/assets/ratingicon.png" alt="ratingicon">
+                                <label for="product-rating" id="product-rating">4.0</label>
+                            </div>
+                            <div class="rightbottom">
+                                <label for="product-sold" id="product-sold">500 terjual</label>
+                            </div>
+                        </div>
+                    </div>
+                </a>
                 <div class="obj">
                     <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/peanuts.jpg" class="vege-img"></a>
                     <label for="product-name">Cauliflower</label>
@@ -111,6 +457,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
     <div class="footer">
