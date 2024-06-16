@@ -6,7 +6,7 @@
 
 .footer-upper{
     display: flex;
-    background-color: green;
+    background-color: rgba(81, 131, 0, 1);  
     padding: 20px;
 }
 
