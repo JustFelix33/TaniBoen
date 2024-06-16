@@ -8,16 +8,69 @@
     height: 92.6vh;
 }
 .left{
-
+    width: 30%;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left .chat-upper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left .chat-search-bar{
+    border: 1.5px solid grey;
+    padding: 5px;
+}
+.left .chat-search-bar input{
+    border: none;
+    outline: none;
+}
+.left .chats{
+    display: flex;
+    flex-direction: column;
+}
+.left .chats #current{
+    background-color: gray;
 }
 .right{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.right .chat-people{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.right #right .bubble-chat{
+    background-color: rgba(81, 131, 0, 1);
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+}
+.right #left .bubble-chat{
+    border-radius: 10px 10px 10px 0px;
+    background-color: lightgray;
 }
 .right .bubble-chat{
-    border: 2px solid black;
+    border: none;
+    padding: 5px;
 }
 .right .waktu{
     text-align: center;
+}
+.right .enter-message{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+.right input{
+    border: none;
+    outline: none;
+    width: 100%;
 }

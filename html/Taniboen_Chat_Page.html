@@ -51,14 +51,30 @@
 
     <div class="main">
         <div class="left">
-            <div class="chat-title">
-                Taniboen Chats
-            </div>
-            <div class="chat-search-bar">
-                Search Chats
+            <div class="chat-upper">
+                <div class="chat-title">
+                    Taniboen Chats
+                </div>
+                <div class="chat-search-bar">
+                    <input type="text" placeholder="Search Chats..">
+                </div>
             </div>
             <div class="chats">
-                Mun & Co.
+                <div class="chat-person" id="current">
+                    Mun & Co.
+                </div>
+                <div class="chat-person">
+                    Mun & Co.
+                </div>
+                <div class="chat-person">
+                    Mun & Co.
+                </div>
+                <div class="chat-person">
+                    Mun & Co.
+                </div>
+                <div class="chat-person">
+                    Mun & Co.
+                </div>
             </div>
         </div>
         <div class="right">
@@ -73,27 +89,31 @@
                 <tr>
                     <td></td>
                     <td>
-                        <div class="bubble-chat">
-                            Permisi min
-                        </div>
-                        <div class="bubble-chat">
-                            Saya mendengar dari teman saya beberapa hari yang lalu, mimin jual kangkung segar ada promo diskon 50% dari harga normal
-                        </div>
-                        <div class="bubble-chat">
-                            Apakah promo tersebut masih ada hari ini min?
+                        <div class="chat-people" id="right">
+                            <div class="bubble-chat">
+                                Permisi min
+                            </div>
+                            <div class="bubble-chat">
+                                Saya mendengar dari teman saya beberapa hari yang lalu, mimin jual kangkung segar ada promo diskon 50% dari harga normal
+                            </div>
+                            <div class="bubble-chat">
+                                Apakah promo tersebut masih ada hari ini min?
+                            </div>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div class="bubble-chat">
-                            Halo selamat siang kak..
-                        </div>
-                        <div class="bubble-chat">
-                            Untuk promo diskon 50% tersebut baru saja habis hari ini kak...
-                        </div>
-                        <div class="bubble-chat">
-                            Tapi kalau misalnya kakak beli kangkungnya lebih dari 10 kami ada diskon 20%, gimana kak?
+                        <div class="chat-people" id="left">
+                            <div class="bubble-chat">
+                                Halo selamat siang kak..
+                            </div>
+                            <div class="bubble-chat">
+                                Untuk promo diskon 50% tersebut baru saja habis hari ini kak...
+                            </div>
+                            <div class="bubble-chat">
+                                Tapi kalau misalnya kakak beli kangkungnya lebih dari 10 kami ada diskon 20%, gimana kak?
+                            </div>
                         </div>
                     </td>
                     <td></td>
@@ -101,18 +121,22 @@
                 <tr>
                     <td></td>
                     <td>
-                        <div class="bubble-chat">
-                            Ooh promonya sudah habis ya min, baiklah
-                        </div>
-                        <div class="bubble-chat">
-                            Untuk diskon 20% saya pikir pikir lagi ya min, terimakasih
+                        <div class="chat-people" id="right">
+                            <div class="bubble-chat">
+                                Ooh promonya sudah habis ya min, baiklah
+                            </div>
+                            <div class="bubble-chat">
+                                Untuk diskon 20% saya pikir pikir lagi ya min, terimakasih
+                            </div>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <div class="bubble-chat">
-                            Ohh baik kak, ditunggu kabarnya ya kak.
+                        <div class="chat-people" id="left">
+                            <div class="bubble-chat">
+                                Ohh baik kak, ditunggu kabarnya ya kak.
+                            </div>
                         </div>
                     </td>
                     <td></td>
@@ -126,15 +150,19 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="bubble-chat">
-                            Permisi kak apakah masih minat beli kangkungnya??
+                        <div class="chat-people" id="left">
+                            <div class="bubble-chat">
+                                Permisi kak apakah masih minat beli kangkungnya??
+                            </div>
                         </div>
                     </td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>
-                        Enter your message..
+                    <td colspan="2">
+                        <div class="enter-message">
+                            <input type="text" placeholder="Enter your message..">
+                        </div>
                     </td>
                 </tr>
             </table>
