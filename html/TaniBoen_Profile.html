@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/assets/logo taniboen remove bg2.png">
-    <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Navbar.css">
-    <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Home_Page.css">
     <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Footer.css">
-    <title>Taniboen</title>
+    <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Navbar.css">
+    <link rel="stylesheet" href="/TaniBoen/css/Taniboen_Profile.css">
+    <title>Document</title>
+
 </head>
 <body>
-
     <div class="navbar">
         <div class="left-section">
             <a href="Taniboen_Home_Page.html">
@@ -50,67 +49,88 @@
 
     <div class="main">
         <div class="introduction-container">
-            <div class="introduction">
-                <div class="intro-title">
-                    Your market place for fresh farm products
-                </div> 
-
-                <div class="intro-greet">
-                    Welcome to TaniBoen 
-                    where you can purchase products from fresh farms all over Indonesia
-                </div>
-            </div>
-                
         </div>
-        <div class="information-title">
-            Fresh Produce
-        </div>
-        <div class="information-vege">
-            <div class="information-row">
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen/assets/cabbage.jpg" class="vege-img"></a>
-                    <label for="product-name">Cabbage</label>
-                    <label for="product-price">$22</label>
-                    
-                </div>    
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen/assets/carrot.jpg" class="vege-img"></a>
-                    <label for="product-name">Carrot</label>
-                    <label for="product-price">$22</label>
-                </div>
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen/assets/brocoli.jpg" class="vege-img"></a>
-                    <label for="product-name">Broccoli</label>
-                    <label for="product-price">$22</label>
-                </div>
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/cauliflower.jpg" class="vege-img"></a>
-                    <label for="product-name">Cauliflower</label>
-                    <label for="product-price">$22</label>
-                </div>
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/wheatkernels.jpg" class="vege-img"></a>
-                    <label for="product-name">Cauliflower</label>
-                    <label for="product-price">$22</label>
-                </div>
 
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/coffeeseed.jpg" class="vege-img"></a>
-                    <label for="product-name">Cauliflower</label>
-                    <label for="product-price">$22</label>
+        <div class="profile-container">
+            <img src="/TaniBoen/assets/profile-img.png">
+            <div class="profile">
+                <div class="profile-name">
+                    Charles
                 </div>
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/peanuts.jpg" class="vege-img"></a>
-                    <label for="product-name">Cauliflower</label>
-                    <label for="product-price">$22</label>
-                </div>
-                <div class="obj">
-                    <a href="/TaniBoen/html/TaniBoen_Products.html"><img src="/TaniBoen//assets/palmoil.jpg" class="vege-img"></a>
-                    <label for="product-name">Cauliflower</label>
-                    <label for="product-price">$22</label>
+                <div class="saldo">
+                    Rp 2.500.000
                 </div>
             </div>
         </div>
+
+        <div class="name-date-container">
+            <div class="nama-panggilan">
+                Nama Panggilan
+                <div class="box-nama">
+                    <input type="textbox" name="payment" placeholder="Edit Nama">
+                </div>
+            </div>
+            <div class="nama-panggilan">
+                Tanggal Lahir 
+                <div class="box-nama">
+                    <input type="date">
+                </div>
+            </div>
+        </div>
+
+        <div class="name-date-container">
+            <div class="nama-panggilan">
+                Nama Lengkap
+                <div class="box-nama">
+                    <input type="textbox" name="payment" placeholder="Edit Nama">
+                </div>
+            </div>
+            <div class="nama-panggilan">
+                Alamat 
+                <div class="box-nama">
+                    <input type="textbox" placeholder="Alamat">
+                </div>
+            </div>
+        </div>
+
+        <div class="name-date-container">
+            <div class="nama-panggilan">
+                Email
+                <div class="box-nama">
+                    <input type="textbox" name="payment" placeholder="Editmail">
+                </div>
+            </div>
+            <div class="nama-panggilan">
+                <div class="box-nama">
+                    <div class="form-group">
+                        <label for="gender">Jenis Kelamin</label>
+                        <select id="gender" name="gender">
+                            <option value="male">Laki-laki</option>
+                            <option value="female">Perempuan</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="name-date-container">
+            <div class="nama-panggilan">
+                Nomor Telepon
+                <div class="box-nama">
+                    <input type="textbox" name="payment" placeholder="Edit Nama">
+                </div>
+            </div>
+            <div class="profile-choice">
+                <div class="history">
+                    <button>Riwayat Pesanan</button>
+                </div>
+                <div class="delete">
+                    <button>Delete Account</button>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
 
     <div class="footer">
@@ -138,6 +158,6 @@
     </div>
 
     <script src="/js/Taniboen_Navbar.js"></script>
-
+    
 </body>
 </html>
