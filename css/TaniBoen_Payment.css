@@ -10,6 +10,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    background: rgba(238, 242, 247, 1);
 }
 
 .title{
@@ -20,12 +21,56 @@
     align-items: center
   }
 
+
+
 .product-detail-container{
     width: 70%;
     height: 40%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
     margin: 10px;
+    box-shadow: 0 0.25rem 1.2rem -1rem rgb(63, 61, 61);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.product-detail-container table{
+    padding: 10px;
+}
+
+
+
+.product-detail-container table th,td{
+    padding: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+.seller-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-chat-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seller-img-container img{
+    width: 120px;
+    height: 120px;
+}
+
+.munco-img{
+    width: 1%;
+    height: 1%;
 }
 
  .detail-title img{
@@ -38,6 +83,7 @@
     display: flex;
     justify-content: space-evenly;
     align-self: center;
+    
 }
 
 .detail-title{
@@ -77,8 +123,8 @@
 .img-container{
     /* background-color: red; */
    
-    width: 70%;
-    
+    width: 90%;
+      
 }
 
 .img-container img{
@@ -91,21 +137,55 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    /* background-color: red; */
 }
 
 .seller-images img{
     width: 100px;
     height: 100px;
+    margin: 5px;
+}
+
+#kangkung-img{
+    border-radius: 10px;
+    border: 0.5px solid rgba(221, 221, 221, 1);
+    width: 196px;
+    height: 131px;
+}
+
+.chat-seller-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chat button{
+    background-color: #518300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+}
+
+.chat-view{
+    text-decoration: none;
 }
 
 
 
+
+
 .delivery-container{
-    border: 2px solid black;
     width: 70%;
     height: 200px;
-    /* background-color: grey; */
     margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0.25rem 1.2rem -1rem rgb(63, 61, 61);
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -155,18 +235,23 @@
 }
 
 .left-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 400px;
     /* height: 100%; */
+    border-radius: 10px;box-shadow: 0 0.25rem 1.2rem -1rem rgb(63, 61, 61);
+    background-color: white;
     border-radius: 10px;
 }
 
 .right-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 400px;
     /* height: 163px; */
     height: 90%;
     border-radius: 10px;
+    box-shadow: 0 0.25rem 1.2rem -1rem rgb(63, 61, 61);
+background-color: white;
+border-radius: 10px;
 }
 
 .payment-title{
