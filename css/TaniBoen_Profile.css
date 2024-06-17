@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: rgba(238, 242, 247, 1);
 }
 
 .introduction-container{
@@ -42,7 +43,18 @@
     /* justify-content: center; */
     width: 75%;
     /* background-color: red; */
+    /* margin-bottom: 20px; */
+    margin: 10px;
+    /* background-color: red; */
+}
+
+.phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 81%;
     margin-bottom: 20px;
+    /* background-color: red; */
 }
 
 .box-nama input{
@@ -61,7 +73,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 .nama-panggilan{
