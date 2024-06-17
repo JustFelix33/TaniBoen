@@ -24,7 +24,7 @@
 
 
 .product-detail-container{
-    width: 70%;
+    width: 50%;
     height: 40%;
     /* border: 2px solid black; */
     border-radius: 10px;
@@ -176,11 +176,8 @@
 }
 
 
-
-
-
 .delivery-container{
-    width: 70%;
+    width: 50%;
     height: 200px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -189,12 +186,6 @@
     border-radius: 10px;
 }
 
-.delivery-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
 
 .delivery-title-container{
     width: 70%;
@@ -222,8 +213,46 @@
     flex-direction: column;
     /* background-color: black; */
     gap: 10px;
-    width: 90%;
+    /* width: 90%; */
     margin: 20px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: blue */
+}
+
+.name-phone{
+    font-weight: bolder;
+}
+
+.city{
+    color: #3E3E3E;
+    font-weight: bolder;
+}
+
+.ongkir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.ongkir-price{
+    border: 2px solid #696969;
+    width: 150px;
+    border-radius: 6px;
+}
+
+.deliver-type{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    text-align: center;
+    /* background-color: red; */
 }
 
 .payment-methods{
