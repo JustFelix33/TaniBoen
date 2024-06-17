@@ -1,7 +1,7 @@
 function showText(button) {
     var text = button.textContent;
     document.getElementById('selectedDelivery').textContent = text.split('|')[0].trim();
-    document.getElementById('result').textContent = 'Ongkos kirim: ' + text;
+    document.getElementById('result').textContent = text;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
